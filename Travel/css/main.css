@@ -1,0 +1,169 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #201b2d;
+    font-size: 15px;
+    padding: 0;
+    margin: 0;
+    background: url('../img/Ellipse.gif') 50% 10%/1000px no-repeat, url('../img/Layer.jpg') 100%/cover no-repeat;
+}
+
+div, p, input, button, form, span, a, ul, li {
+box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.title {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.title h6 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: #878f92;
+}
+
+.title h1 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 10px;
+    line-height: 30px;
+}
+
+.image {
+    margin: 40px auto 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.image img {
+    max-width: 100%;
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 35px 15px rgba(89, 106, 118, 0.2);
+    -moz-box-shadow: 0px 0px 35px 15px rgba(89, 106, 118, 0.2);
+    box-shadow: 0px 0px 35px 15px rgba(89, 106, 118, 0.2);
+}
+
+.paragraph {
+    font-size: 20px;
+    max-width: 740px;
+    margin: 50px auto 0 auto;
+}
+
+.paragraph p {
+    margin-top: 60px;
+}
+
+.myStore {
+    margin: 50px auto 0 auto;
+    max-width: 740px;
+}
+
+ul {
+    list-style: none;
+    margin-left: -40px;
+}
+
+.myStore li {
+    font-size: 18px;
+    margin: 0 0 10px 0;
+    background: url('../img/check.png') left no-repeat;
+    padding: 0 0 0 35px;
+}
+
+.one {
+    font-weight: bold;
+}
+
+.two {
+    font-style: italic;
+    color: #878f92;
+}
+
+.three {
+    font-weight: bold;
+}
+
+.four {
+    color: #878f92;
+    text-decoration: line-through;
+}
+
+button {
+    background: #80b7b3;
+    display: flex;
+    margin-top: 50px;
+    text-transform: uppercase;
+    padding: 10px 12px;
+    border: none;
+    cursor: pointer;
+    transition: all 1s ease;
+    border-radius: 20px;
+    -webkit-box-shadow: 0px 0px 35px 15px rgba(89, 106, 118, 0.2);
+    -moz-box-shadow: 0px 0px 35px 15px rgba(89, 106, 118, 0.2);
+    box-shadow: 0px 0px 35px 15px rgba(89, 106, 118, 0.2);
+}
+
+button p {
+    margin: 0;
+    font-size: 12px;
+    letter-spacing: 4px;
+    color: white;
+}
+
+button img {
+    margin-left: 10px;
+}
+
+button:hover {
+    background: #6b9996;
+}
+
+/* Responsive */
+
+ /* 992px - 1200px */
+@media screen and (max-width: 1200px) {
+
+    .container {
+        max-width: 90%;
+    }
+
+    footer {
+        padding-bottom: 80px;
+    }
+}
+
+/* 768px - 992px */
+@media screen and (max-width: 992px) {
+    footer {
+        padding-bottom: 150px;
+    }
+}
+
+
+
+/* 576px - 768px */
+@media screen and (max-width: 768px) {
+    footer {
+        padding-bottom: 180px;
+    }
+}
+
+/* 0 - 576px */
+@media screen and (max-width: 576px) {
+   
+} 
